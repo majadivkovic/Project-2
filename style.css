@@ -1,0 +1,365 @@
+* {
+box-sizing : border-box;
+}
+body {
+margin : 0;
+text-align : center;
+font-family : 'Abel', Oswald, sans-serif;
+background-color : #FFF;
+color : gray;
+}
+h1 {
+font-family : 'Anton', 'Roboto Mono', sans-serif;
+font-size : 2.5em;
+color : gray;
+letter-spacing : 0.1em;
+text-shadow : 1px 2px 1px rgb(204, 204, 202.6);
+}
+p {
+font-size : 1.2em;
+color : #555;
+font-family : 'Abel', Oswald, sans-serif;
+margin-top : -15px;
+}
+h2 {
+font-size : 1.7em;
+font-family : 'Anton', 'Roboto Mono', sans-serif;
+}
+h3 {
+font-size : 1.3em;
+font-family : 'Anton', 'Roboto Mono', sans-serif;
+}
+a {
+text-decoration : none;
+color : inherit;
+}
+img {
+max-width : 80%;
+height : auto;
+}
+footer {
+margin-top : 5%;
+font-family : 'Abel', Oswald, sans-serif;
+}
+.main-nav ul {
+list-style : none;
+padding : 0;
+}
+.main-nav ul li a {
+display : block;
+background-color : white;
+width : 90%;
+margin : 1% auto;
+padding : 2% 0;
+transition : 0.5s;
+font-size : 1.2em;
+}
+.fnt-bold {
+font-weight : 600;
+}
+.main-nav ul li a:hover {
+background-color : #ccc;
+}
+#portfolio {
+text-transform : uppercase;
+}
+.portfolio-pic {
+border : gray solid 3px;
+padding : 10px 10px;
+box-shadow : 1px 3px 3px rgb(2, 3, 2, 0.8);
+border-radius: 20px 0 20px 0;
+}
+.profile-img {
+border : white solid 4px;
+border-radius : 50px;
+padding : 0;
+}
+.intro, img {
+margin-top : 20px;
+padding : 3%;
+background-color :#F4924F ;
+}
+.intro p {
+font-size : 1.1em;
+font-family : 'Abel', Oswald, sans-serif;
+padding : 30px;
+margin-right : 10px;
+}
+.main-content {
+background-color : #fff;
+padding-top : 5%;
+}
+.main-content p {
+padding : 5%;
+font-family : 'Abel', Oswald, sans-serif;
+font-size : 1.1em;
+}
+.main-content h2 {
+background-color : whitesmoke;
+}
+.skills-sect h2 {
+background-color : whitesmoke;
+}
+#contact p {
+padding : 2% 12%;
+font-size : 1.1em;
+font-family : 'Abel', Oswald, sans-serif;
+background-color : #F4924F;
+text-align : center;
+}
+#contact h2 {
+padding : 1% 10%;
+font-size : 1.6em;
+background-color : #F4924F ;
+margin-bottom : 5px;
+}
+.bottom-sect {
+display : flex;
+padding-top : 25px;
+border-top : 2px solid lightgrey;
+}
+.title-footer {
+width : 50%;
+text-align : left;
+}
+.footer-navi {
+display : none;
+}
+.footer-navi ul {
+list-style : none;
+}
+.footer-navi ul li a {
+padding : 0 10px 0;
+}
+.to-top-link {
+font-size : 1em;
+text-align : right;
+width : 50%;
+}
+.to-top-link a {
+padding : 0 10px 0;
+transition : 0.5s;
+}
+.to-top-link a:hover {
+background-color : whitesmoke;
+color : #000;
+}
+.bottom-sect {
+padding-top : 8%;
+margin-bottom : -10px;
+}
+@media only screen and (min-width: 768px) {
+h1 {
+font-size : 1.7em;
+margin-left : 10px;
+}
+header {
+display : flex;
+}
+h2 {
+width : 100%;
+font-size : 1.9em;
+}
+p {
+font-size : 1.2em;
+}
+img {
+max-width : 90%;
+height : auto;
+}
+.main-nav {
+width : 50%;
+margin : auto;
+}
+.main-nav ul li {
+display : inline-block;
+background-color : whitesmoke;
+}
+.main-nav ul li a {
+font-size : 0.9em;
+display : block;
+padding : 10px 15px;
+background-color : whitesmoke;
+margin-left : 10px;
+}
+.main-nav ul li a:hover {
+background-color : #ccc;
+border-bottom : 5px solid #F4924F ;
+}
+.profile-img {
+width : 60%;
+}
+.intro {
+display : flex;
+font-family : 'Abel', Oswald, sans-serif;
+}
+.intro img {
+margin-top : 5px;
+order : 1;
+padding : 2%;
+}
+.main-content {
+display : flex;
+flex-wrap : wrap;
+}
+.main-content p {
+text-align : left;
+padding : 5%;
+font-family : 'Abel', Oswald, sans-serif;
+font-size : 1.2em;
+}
+.main-content div {
+width : 50%;
+padding : 2%;
+}
+.main-content h2 {
+background-color : whitesmoke;
+}
+.skills-sect div {
+width : 100%;
+padding-top : 4%;
+padding-bottom : 4%;
+padding-left : 20%;
+padding-right : 20%;
+}
+.skills-sect h2 {
+background-color : whitesmoke;
+}
+#contact p {
+padding : 2% 10%;
+font-size : 1.2em;
+background-color : #F4924F ;
+}
+#contact h2 {
+padding : 2% 10%;
+font-size : 1.2em;
+background-color : #F4924F ;
+}
+.to-top-link {
+display : none;
+}
+.footer-navi {
+display : flex;
+width : 70%;
+}
+.footer-navi ul {
+width : 100%;
+margin : 0;
+}
+.footer-navi ul li {
+display : inline-block;
+margin : 10px 10px;
+}
+.footer-navi ul li a {
+display : block;
+transition : 0.2s;
+padding : 5px;
+margin-top : -5px;
+background-color : whitesmoke;
+}
+.footer-navi ul li a:hover {
+border-bottom : 3px solid #F4924F;
+}
+.title-footer {
+width : 50%;
+text-align : left;
+margin-top : 10px;
+}
+.bottom-sect {
+padding : 1%;
+}
+}
+@media only screen and (min-width: 1024px) {
+h1 {
+font-size : 2.5em;
+letter-spacing : 0.15em;
+}
+h3 {
+font-size : 1.6em;
+}
+header {
+display : flex;
+padding : 1%;
+}
+header h1 {
+width : 40%;
+text-align : left;
+}
+img {
+max-width : 100%;
+height : auto;
+}
+.main-nav {
+text-align : right;
+width : 55%;
+font-size : 1.1em;
+}
+.main-nav ul li a {
+font-size : 1em;
+display : block;
+padding : 10px 20px;
+background-color : whitesmoke;
+margin-left : 10px;
+}
+.intro {
+padding : 2% 16%;
+font-size : 1.2em;
+text-align : left;
+margin-left : -150px;
+}
+.profile-img {
+width : 70%;
+height : 60%;
+margin-right : -150px;
+margin-left : 150px;
+margin-top : -10px;
+margin-bottom : 0;
+}
+.main-content div {
+width : 33.3%;
+padding : 2%;
+}
+.skills-sect div {
+width : 100%;
+padding-top : 1%;
+padding-bottom : 1%;
+padding-left : 32.5%;
+padding-right : 32.5%;
+}
+.skills-sect h2 {
+background-color : whitesmoke;
+}
+.main-content p {
+padding-top : 1%;
+text-align : left;
+padding : 5%;
+font-family : 'Abel', Oswald, sans-serif;
+font-size : 1.2em;
+}
+#contact {
+padding : 1% 20%;
+font-size : 1.2em;
+background-color : #F4924F;
+}
+#contact h2 {
+padding : 1% 10%;
+font-size : 1.6em;
+}
+.footer-navi {
+display : flex;
+width : 50%;
+}
+.footer-navi ul li a {
+display : block;
+transition : 0.2s;
+padding : 10px;
+margin-top : -5px;
+background-color : whitesmoke;
+}
+.title-footer {
+font-size : 1.6em;
+}
+.bottom-sect {
+padding : 1%;
+}
+}
